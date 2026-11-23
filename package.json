@@ -1,0 +1,19 @@
+
+{
+  "name": "almina-bot",
+  "version": "1.0.0",
+  "description": "Almina AI Discord Assistant",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "openai": "^5.12.2",
+    "dotenv": "^16.4.7",
+    "@supabase/supabase-js": "^2.57.4"
+  }
+}
